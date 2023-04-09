@@ -1,0 +1,186 @@
+body {
+    background-color: rgb(19, 19, 19); 
+}
+    
+.slunce {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color:yellow;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0; 
+}
+   
+.merkur {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    animation: rotate-merkur 2s linear infinite;
+    animation-delay: 0.5s;
+}
+
+.venuše {
+    width: 35px;  
+    height: 35px;
+    border-radius: 50%; 
+    background-color: beige;  
+    position: absolute; 
+    margin: auto; 
+    top: 0; bottom: 0; 
+    left: 0; right: 0;
+    animation: rotate-venuše 3s linear infinite;
+    animation-delay: 1s;  
+}
+    
+.země {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    animation: rotate-země 5s linear infinite;
+    animation-delay: 1.5s;
+}
+    
+.mars {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: orange;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    animation: rotate-mars 7s linear infinite;
+    animation-delay: 2s;
+}
+    
+.jupiter {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: rgb(116, 17, 17);
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    animation: rotate-jupiter 12s linear infinite;
+    animation-delay: 2.5s;
+}
+    
+.saturn {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: burlywood;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    animation: rotate-saturn 15s linear infinite;
+    animation-delay: 3s; 
+}
+    
+.uran {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: lightblue;
+    position: absolute;
+    margin: auto;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    animation: rotate-uran 20s linear infinite;
+    animation-delay: 3.5s;
+}
+    
+.neptun {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background-color: blue; 
+    position: absolute; 
+    margin: auto;
+    top: 0; bottom: 0; 
+    left: 0; right: 0;
+    animation: rotate-neptun 25s linear infinite;
+    animation-delay: 4s;
+}
+
+    @keyframes rotate-merkur {
+    0% {
+    transform: rotate(0) translateX(160px);
+    }
+    100% {
+    transform: rotate(360deg) translateX(160px);
+    }
+}
+    @keyframes rotate-venuše {
+    0% {
+    transform: rotate(0) translateX(200px);
+    }
+    100% {
+    transform: rotate(360deg) translateX(200px); 
+    }
+}
+    @keyframes rotate-země {
+    0% {
+    transform: rotate(0) translateX(250px);
+    }
+    100% {
+     transform: rotate(360deg) translateX(250px);
+    }
+}
+    @keyframes rotate-mars {
+    0% {
+    transform: rotate(0) translateX(300px); 
+    }
+    100% {
+    transform: rotate(360deg) translateX(300px);
+    }
+} 
+    @keyframes rotate-jupiter {  
+    0% {  
+    transform: rotate(0) translateX(350px); 
+    } 
+    100% { 
+    transform: rotate(360deg) translateX(350px);
+    }
+}  
+    @keyframes rotate-saturn {  
+    0% {
+    transform: rotate(0) translateX(400px) rotate(0);  
+    } 
+    50% { 
+    transform: rotate(180deg) translateX(400px) rotate(180deg);  
+    } 
+    100% { 
+    transform: rotate(360deg) translateX(400px) rotate(360deg);
+    }
+}
+    @keyframes rotate-uran { 
+    0% {
+    transform: rotate(0) translateX(450px);
+    }
+    100% {
+    transform: rotate(360deg) translateX(450px);  
+    } 
+}
+    @keyframes rotate-neptun {
+    0% {
+    transform: rotate(0) translateX(500px);
+    }
+    100% {
+    transform: rotate(360deg) translateX(500px);
+    }
+}
